@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  margin: 4rem 0 4rem 7.2rem;
+
+  display: flex;
+  position: absolute;
+
+  font-weight: 300;
+  font-size: 2.1rem;
+
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+  transition: 0.3s;
+}
+
+.home,
+.universo,
+.exploracao {
+  font-weight: 500;
+}
+
+.home.show,
+.universo.show,
+.exploracao.show {
+  font-weight: 300;
+}
+
+.home:hover,
+.universo:hover,
+.exploracao:hover {
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  gap: 3.2rem;
+}
+
+li {
+  list-style: none;
+}
+
+#home {
+  height: 100vh;
+  place-content: center;
+  display: grid;
+
+  text-align: center;
+  color: white;
+
+  background: url(./assets/img/home.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home h1 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+#home a {
+  justify-self: center;
+  background: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 19.5rem;
+  height: 4.8rem;
+
+  border: 2px solid white;
+  border-radius: 0.5rem;
+
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+#home a:hover {
+  background-color: white;
+
+  color: #02799d;
+  font-size: 1.4rem;
+}
+
+#universo {
+  height: 100vh;
+  place-content: start;
+  display: grid;
+
+  text-align: left;
+  color: white;
+
+  background: url(./assets/img/universo.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#universo h2 {
+  margin-top: 18.5rem;
+  margin-left: 15.5rem;
+  margin-bottom: 2.4rem;
+  font-size: 4.8rem;
+}
+
+#universo p {
+  margin-left: 15.5rem;
+  line-height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  max-width: 70rem;
+}
+
+#exploracao {
+  height: 100vh;
+  place-content: start;
+  display: grid;
+
+  text-align: left;
+  color: white;
+
+  background: url(./assets/img/exploracao.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#exploracao h2 {
+  margin-top: 18.5rem;
+  margin-left: 15.5rem;
+  margin-bottom: 2.4rem;
+  font-size: 4.8rem;
+}
+
+#exploracao p {
+  margin-left: 15.5rem;
+  line-height: 2.9rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  max-width: 70rem;
+}
+
+#error {
+  height: 100vh;
+  place-content: center;
+  display: grid;
+
+  text-align: center;
+  color: white;
+
+  background: url(./assets/img/home.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#error h2 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
