@@ -49,4 +49,3 @@ function universe() {
     buttonExploration.classList.add("show");
   }
 }
-
