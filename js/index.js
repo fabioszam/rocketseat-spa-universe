@@ -10,18 +10,13 @@ router.handle();
 
 window.onpopstate = () => router.handle();
 window.route = () => router.route();
+window.universe = () => universe();
 
 const buttonHome = document.querySelector(".home");
 const buttonUniverse = document.querySelector(".universo");
 const buttonExploration = document.querySelector(".exploracao");
 
 buttonHome.classList.remove("show");
-
-if (window.location.pathname == "/universo") {
-  buttonUniverse.classList.remove("show");
-  buttonHome.classList.add("show");
-  buttonExploration.classList.add("show");
-}
 
 buttonHome.addEventListener("click", function () {
   if (buttonHome.classList.contains("show")) {
@@ -46,3 +41,12 @@ buttonExploration.addEventListener("click", function () {
     buttonUniverse.classList.add("show");
   }
 });
+
+function universe() {
+  if (buttonUniverse.classList.contains("show")) {
+    buttonUniverse.classList.remove("show");
+    buttonHome.classList.add("show");
+    buttonExploration.classList.add("show");
+  }
+}
+
