@@ -39,15 +39,15 @@ Build a page with SPA (Single Page Application) concepts.
 ## What I learned in this project? 
 
 - Single Page Application 
-- JavaScript Modules
-- addEventListener()
-- Clean Code
-- Code Refactoring
+- JavaScript Promises
+- Asynchronous JavaScript
+- Object-Oriented Programming
+- fetch()
 - more...
 
 <p align="center">
   <a
-    href="https://fabioszam.github.io/rocketseat-explorer-IMC-calculator/"
+    href="https://rocketseat-spa-universe.vercel.app/"
     target="_blank"
   >
     <strong>You can see the project here</strong>
