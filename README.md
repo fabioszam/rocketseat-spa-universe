@@ -25,7 +25,7 @@
   </picture>
 </div>
 
-<h1>Rocketseat | Explorer: IMC Calculator</h1>
+<h1>Rocketseat | Explorer: SPA Universe (Challenge)</h1>
 
 Project developed at the Rocketseat Explorer program.
 Build a page with SPA (Single Page Application) concepts.
